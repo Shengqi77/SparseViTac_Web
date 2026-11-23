@@ -33,3 +33,7 @@ nav a:hover,footer a:hover,.bar a:hover { color: #3781aa; }
 #paper-info .resources>span { background:#e6f2fb; color:#20465d; border-color:#c3dbea; }
 #paper-info .resources small { color:#465e70; }
 .teaser { padding-bottom:36px; }
+
+/* Share the displayed image width with its paper caption. */
+figure:has(figcaption) { display:table; width:fit-content; max-width:100%; margin-inline:auto; }
+figure:has(figcaption) figcaption { display:table-caption; caption-side:bottom; text-align:left; max-width:none; margin:10px 0 0; line-height:1.55; }
