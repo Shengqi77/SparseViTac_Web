@@ -39,3 +39,12 @@ figure:has(figcaption) { display:table; width:fit-content; max-width:100%; margi
 figure:has(figcaption) figcaption { display:table-caption; caption-side:bottom; text-align:left; max-width:none; margin:10px 0 0; line-height:1.55; }
 
 .cinema-content h1 > span { display:block; }
+
+#paper-preview { margin:28px 0 4px; text-align:center; }
+.preview-scroll { overflow-x:auto; padding:8px 2px 12px; scrollbar-width:thin; }
+.preview-scroll a { display:block; min-width:960px; }
+.preview-scroll img { display:block; width:100%; height:auto; }
+.read-paper { color:#345d78; font-size:14px; text-underline-offset:3px; }
+.resources .paper-button { align-self:stretch; display:inline-flex; align-items:center; padding:6px 18px; border:1px solid #ffffff70; border-radius:24px; background:#102027ba; color:white; font-weight:650; text-decoration:none; }
+#paper-info .paper-button { background:#e6f2fb; color:#20465d; border-color:#c3dbea; }
+.paper-button:hover, .paper-button:focus-visible { text-decoration:underline; }
